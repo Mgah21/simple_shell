@@ -5,7 +5,7 @@
  * @ch: The character that checks it
  * Return: if Succes 1, elseFailed 0
  */
-int check_char(const char *s , char ch)
+int check_char(const char *s, char ch)
 {
 
 for (int h = 0;  s[h] != '\0'; h++)

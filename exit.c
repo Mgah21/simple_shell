@@ -5,12 +5,12 @@
  */
 void  exit_fun(void)
 {
-int stat = 0 ;
-int h = 0 ;
+int stat = 0;
+int h = 0;
 int j;
 char *in;
 char **argv;
-char **command
+ char **command;
 
 if (command[1] == NULL)
 {

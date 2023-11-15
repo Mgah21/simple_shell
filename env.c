@@ -5,7 +5,7 @@
  */
 int env(void)
 {
-int h,length;
+int h, length;
 for (h = 0; environ[h] != NULL; h++)
 {
 length = _strlen(environ[h]);
@@ -14,4 +14,3 @@ write(STDOUT_FILENO, "\n", 1);
 }
 return (0);
 }
- 

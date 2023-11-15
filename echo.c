@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
   * echo -  Echo
- * Return: 0  
+ * Return: 0
   */
-int echo(void )
+int echo(void)
 {
 int k;
 char *p;

@@ -5,10 +5,10 @@
  * @ch: The character that checks it
  * Return: if Succes 1, elseFailed 0
  */
-int check_char(const char *s,char ch)
+int check_char(const char *s , char ch)
 {
 
-for (int h=0;  s[h] != '\0'; h++)
+for (int h = 0;  s[h] != '\0'; h++)
 {
 if (ch == s[h])
 return (1);
@@ -35,7 +35,7 @@ tok_n = string;
 tok_c = tok_n;
 if (tok_c == NULL)
 return (NULL);
-for ( h = 0; tok_c[h] != '\0'; h++)
+for (h = 0; tok_c[h] != '\0'; h++)
 {
 if (check_char(tok_c[h], delimiter) == 0)
 break;

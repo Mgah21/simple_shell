@@ -5,7 +5,7 @@
  */
 int cd(void)
 {
-int val ;
+int val;
 char **command;
 char cd[PATH_MAX];
 val = -1;

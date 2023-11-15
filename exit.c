@@ -10,7 +10,7 @@ int h = 0;
 int j;
 char *in;
 char **argv;
- char **command;
+char **command;
 
 if (command[1] == NULL)
 {

@@ -7,7 +7,7 @@
 void treat_file(FILE *op)
 {
 char **command;
-char **arg ;
+char **arg;
 char *l;
 int coun;
 int m = 0;
@@ -24,7 +24,7 @@ free(command);
 }
 else
 {
-m = check_cmd (command, l, coun, arg);
+m = check_cmd(command, l, coun, arg);
 free(command);
 }
 }
@@ -34,7 +34,7 @@ free(command);
  * @fd: Description
  * Return : 0
  */
-void exit_bul(  FILE *fd)
+void exit_bul(FILE *fd)
 {
 int stat, h = 0;
 char **command;

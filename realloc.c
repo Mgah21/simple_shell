@@ -6,7 +6,7 @@
  */
 void *_realloc(void)
 {
-int o,n;
+int o, n;
 void *p;
 void *result;
 

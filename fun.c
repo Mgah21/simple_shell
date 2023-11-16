@@ -7,7 +7,7 @@
 
 int built_fun(void)
 {
-int e,h;
+int e, h;
 char **comm;
 bul_fun bil[] = {
 {"cd", cd},
@@ -36,7 +36,7 @@ return (-1);
  */
 int fork(char **arg)
 {
-int stat,h;
+int stat, h;
 pid_t pid;
 char **command;
 char *in;
@@ -71,7 +71,6 @@ wait(&stat);
 return (0);
 }
 
-#include "shell.h"
 /**
  * read - Read
  * Return: -1 or  0
@@ -82,7 +81,7 @@ void read(void)
 FILE *op;
 char *line = NULL;
 char **argv;
-int coun,length = 0;
+int coun, length = 0;
 char *file;
 op = fopen(file, "r");
 if (op == NULL)

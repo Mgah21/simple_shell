@@ -17,7 +17,7 @@ return (h);
 }
 
 /**
- * _getenv - getenv 
+ * _getenv - getenv
  * Return: 0 or null
  */
 char *_getenv(void)
@@ -26,7 +26,7 @@ int o, p;
 char *mt;
 char *num;
 int h;
-int g , u;
+int g, u;
 o = _strlen(mt);
 for (h = 0 ; environ[h]; h++)
 {

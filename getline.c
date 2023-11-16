@@ -34,7 +34,7 @@ return ("\0");
 if (h >= buffsize)
 {
 buffing = _realloc(buff, buffsize, buffsize + 1);
-if (buffing== NULL)
+if (buffing == NULL)
 
 return (NULL);
 }

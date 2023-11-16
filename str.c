@@ -7,7 +7,7 @@
 char *_strncpy(void)
 {
 char *s;
-int h,g;
+int h, g;
 char *d;
 h = 0;
 while (h < g && *(s + h))
